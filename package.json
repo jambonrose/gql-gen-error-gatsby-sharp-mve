@@ -1,0 +1,30 @@
+{
+  "name": "gql-gen-error-gatsby-sharp-mve",
+  "version": "1.0.0",
+  "description": "Demonstrate error with GraphQL type generator and Gatsby Sharp Transformer",
+  "author": "Andrew Pinkham",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "dev": "gatsby develop",
+    "generatetypes": "graphql-codegen --config codegen.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambonrose/gql-gen-error-gatsby-sharp-mve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jambonrose/gql-gen-error-gatsby-sharp-mve/issues"
+  },
+  "homepage": "https://github.com/jambonrose/gql-gen-error-gatsby-sharp-mve#readme",
+  "dependencies": {
+    "@graphql-codegen/cli": "1.1.1",
+    "@graphql-codegen/typescript": "1.1.1",
+    "@graphql-codegen/typescript-operations": "1.1.1",
+    "gatsby": "2.3.32",
+    "gatsby-plugin-sharp": "2.0.35",
+    "gatsby-transformer-sharp": "2.1.18",
+    "graphql": "14.2.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
